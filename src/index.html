@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles/app.css">
+</head>
+<body>
+<!--这是注释-->
+	<h1>测试内容你好啊</h1>
+    <button id="btn">button</button>
+	<script type="text/javascript" src="scripts/all.js"></script>
+<script>
+    var btn=document.getElementById('btn');
+    btn.onclick= function () {
+        console.log('aaaaa');
+    };
+    (function () {
+        console.log('666666');
+        console.log('888888');
+        console.log('888888');
+    }());
+</script>
+</body>
+</html>
